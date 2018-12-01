@@ -22,7 +22,7 @@ import {
       state(
         'active',
         style({
-          transform: 'scale(1.1)',
+          transform: 'scale(1.2)',
         }),
       ),
       transition('inactive => active', animate('100ms ease-in')),
@@ -33,8 +33,8 @@ import {
 export class HomePageComponent implements OnInit {
   state = 'inactive';
   ngOnInit() {
-    setTimeout(() => {
-      this.state = 'active';
-    }, 5 * 1000);
+    // setTimeout(() => {
+    //   this.state = 'active';
+    // }, 5 * 1000);
   }
 }
