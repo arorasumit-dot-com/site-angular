@@ -1,3 +1,8 @@
 .home {
   background-color: #FE4365;
 }
+
+.home a {
+  color: #fff;
+  text-decoration: none;
+}
